@@ -1,0 +1,109 @@
+body{
+  margin: 0;
+  font-family: Georgia, sans-serif;
+}
+h1, h2 {
+  text-transform: uppercase;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+  background-color: black;
+  float: left;
+}
+
+main ul li{
+  float: left;
+  border: 1px black solid;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.book img {
+  height: 150px;
+  width: 100px;
+  margin-top: 40px;
+}
+
+.book {
+  width: 350px;
+  height: 300px;
+  padding-left: 40px;
+}
+
+.book_collection {
+  padding-left: 5%;
+  padding-right:5%;
+}
+
+main ul li {
+  margin: 50px;
+}
+
+main {
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+header {
+  padding: 10px;
+  background-color: #034078;
+  color: white;
+}
+
+.button {
+  background-color: #1282A2;
+  border-radius: 7px;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+footer {
+  text-align: center;
+}
+
+section.book_info{
+  float: right;
+}
+
+.review{
+  border-left: 5px #1282A2 solid;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+#reviews, .book_info_description {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+main section.book_info  {
+  float: right;
+  margin: 30px;
+  margin-right: 5%;
+}
+main section.book_info_image  {
+  float: left;
+  margin: 30px;
+  margin-left: 5%;
+}
+
+.book_info_description {
+  clear: both;
+}
